@@ -1,0 +1,18 @@
+{
+  "AND": [
+    {
+      "OR": [
+        {
+          "SEARCH_FIELD": "AGENT_STATUS",
+          "SEARCH_TYPE": "EQ",
+          "SEARCH_VALUE": "STATUS_010_CONNECTED"
+        },
+        {
+          "SEARCH_FIELD": "AGENT_STATUS",
+          "SEARCH_TYPE": "EQ",
+          "SEARCH_VALUE": "STATUS_040_DISCONNECTED"
+        }
+      ]
+    }
+  ]
+}
